@@ -121,8 +121,9 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
 .wc-message-pane.show-actions .wc-suggested-actions {
   height: 40px; }
 
+/* default wc-console color : #dbdee1*/
 .wc-console {
-  border: 5px solid #dbdee1;
+  border: 5px solid #000;
   bottom: 0;
   box-sizing: border-box;
   height: 50px;
@@ -130,14 +131,14 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
   position: absolute;
   right: 0; }
 
-/* views 
+/* views */
 .wc-chatview-panel {
   overflow: hidden;
-  position: absolute;
   right: 0;
   left: 0;
   top: 0;
-  bottom: 0; }
+  bottom: 0;
+  min-height: 370px; }
 
 /* messages */
 .wc-message-wrapper {
@@ -435,7 +436,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
 
 .wc-send {
   right: 0;
-  background-color: #FFFFFF; }
+  background-color: #000; }
 
 .wc-send.hidden {
   visibility: hidden; }
@@ -446,7 +447,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
 
 .wc-upload {
   left: 0;
-  background-color: #FFFFFF; }
+  background-color: #000; }
 
 .wc-upload svg {
   height: 18px;
@@ -459,6 +460,11 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
   bottom: 0;
   left: 48px;
   right: 49px; }
+
+.wc-shellinput {
+  background-color: #000;
+  color: #fff;
+}
 
 .wc-mic {
   right: 0; }
