@@ -174,6 +174,7 @@ body .wc-app, .wc-app button, .wc-app input, .wc-app textarea {
   width: 6px; }
 
 .wc-message-content {
+  text-align: left;
   border-radius: 2px;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
   padding: 8px;
